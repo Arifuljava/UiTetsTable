@@ -30,7 +30,7 @@ class SendController: UIViewController {
 
 extension SendController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        print("UI")
+        print(""+names[indexPath.row])
     }
     
     

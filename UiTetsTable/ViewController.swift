@@ -30,6 +30,8 @@ extension ViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let sec = storyboard?.instantiateViewController(identifier: "kik") as! SendController
                             present(sec,animated: true)
+    ///    print(""+names[indexPath.row])
+        
     }
     
 }
@@ -44,6 +46,8 @@ extension ViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = names[indexPath.row]
+        cell.textLabel?.textAlignment = .center
+        
         return cell
     }
     
