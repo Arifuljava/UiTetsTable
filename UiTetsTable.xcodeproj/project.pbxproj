@@ -102,13 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2588C8C92A08C89C002F7EC7 /* AppDelegate.swift */,
+				2588C8F92A08E8F5002F7EC7 /* SendController.swift */,
 				2588C8CB2A08C89C002F7EC7 /* SceneDelegate.swift */,
 				2588C8CD2A08C89C002F7EC7 /* ViewController.swift */,
 				2588C8CF2A08C89C002F7EC7 /* Main.storyboard */,
 				2588C8D22A08C89D002F7EC7 /* Assets.xcassets */,
 				2588C8D42A08C89D002F7EC7 /* LaunchScreen.storyboard */,
 				2588C8D72A08C89D002F7EC7 /* Info.plist */,
-				2588C8F92A08E8F5002F7EC7 /* SendController.swift */,
 			);
 			path = UiTetsTable;
 			sourceTree = "<group>";
