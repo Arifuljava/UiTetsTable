@@ -16,6 +16,7 @@
 		2588C8E12A08C89D002F7EC7 /* UiTetsTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588C8E02A08C89D002F7EC7 /* UiTetsTableTests.swift */; };
 		2588C8EB2A08C89D002F7EC7 /* UiTetsTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588C8EA2A08C89D002F7EC7 /* UiTetsTableUITests.swift */; };
 		2588C8ED2A08C89D002F7EC7 /* UiTetsTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588C8EC2A08C89D002F7EC7 /* UiTetsTableUITestsLaunchTests.swift */; };
+		2588C8FA2A08E8F5002F7EC7 /* SendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588C8F92A08E8F5002F7EC7 /* SendController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2588C8E62A08C89D002F7EC7 /* UiTetsTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiTetsTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2588C8EA2A08C89D002F7EC7 /* UiTetsTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTetsTableUITests.swift; sourceTree = "<group>"; };
 		2588C8EC2A08C89D002F7EC7 /* UiTetsTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiTetsTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2588C8F92A08E8F5002F7EC7 /* SendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2588C8D22A08C89D002F7EC7 /* Assets.xcassets */,
 				2588C8D42A08C89D002F7EC7 /* LaunchScreen.storyboard */,
 				2588C8D72A08C89D002F7EC7 /* Info.plist */,
+				2588C8F92A08E8F5002F7EC7 /* SendController.swift */,
 			);
 			path = UiTetsTable;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2588C8CE2A08C89C002F7EC7 /* ViewController.swift in Sources */,
+				2588C8FA2A08E8F5002F7EC7 /* SendController.swift in Sources */,
 				2588C8CA2A08C89C002F7EC7 /* AppDelegate.swift in Sources */,
 				2588C8CC2A08C89C002F7EC7 /* SceneDelegate.swift in Sources */,
 			);
